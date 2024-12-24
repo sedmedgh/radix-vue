@@ -78,6 +78,7 @@
     "./dist"
   ],
   "scripts": {
+    "build": "vite build",
     "watch": "vite build --watch",
     "type-check": "vue-tsc -p tsconfig.check.json --noEmit",
     "type-gen": "vue-tsc --declaration  --emitDeclarationOnly",
