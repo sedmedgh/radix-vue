@@ -26,7 +26,11 @@
   ],
   "sideEffects": false,
   "exports": {
-    ".": "./src/index.ts",
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.umd.cjs"
+    },
     "./*": "./src/*",
     "./date": {
       "import": {
